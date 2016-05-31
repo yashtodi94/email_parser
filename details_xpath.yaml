@@ -1,0 +1,48 @@
+auto-confirm@amazon.in:
+    address: //table/tbody/tr/td[2]/p/b/text()
+    order_id: //table/tbody/tr[2]/td/a/text()
+    item_title: //table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/a[1]/text()
+    item_price: //table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[3]/strong/text()
+order-update@amazon.in:
+    address: //td/table/tbody/tr/td[2]/p/strong/text()
+    order_id: //tbody/tr[3]/td/span[2]/a/text()
+    item_title: //table/tbody/tr/td[2]/p[1]/a/text()
+ship-confirm@amazon.in:
+    address: //table/tbody/tr[1]/td[2]/p/strong/text()
+    order_id: //table/tbody/tr[3]/td/span/a/text()
+    item_title: //tbody/tr[5]/td/table/tbody/tr/td[2]/a/text()
+    item_price: //table/tbody/tr/td[3]/strong/text()
+no-reply@paytm.com:
+    confirmed:
+        item_title: //tr[2]/td[1]/div[2]/text()
+        order_id: //div[1]/div[2]/div[2]/div[2]/span/strong/text()
+        address: //div[1]/div[2]/div[2]/div[3]/div/text()
+        item_price: //tr[2]/td[4]/div/div/text()
+    shipped:
+        item_title: //tr[2]/td[1]/div[2]/text()
+        order_id: //div[2]/div[2]/div[2]/span/strong/text()
+        item_price: //tr[2]/td[4]/div/div/text()
+        address: //div[1]/div[2]/div[2]/div[3]/div/text()
+    delivered:
+        address: //div/div[1]/div[3]/div[2]/text()
+        order_id: //div[1]/div[2]/span[1]/strong/a/text()
+        item_title: //tr[2]/td[1]/div[2]/text()
+        item_price: //tr[2]/td[3]/div/div/text()
+noreply@flipkart.com:
+    address: //td/table/tr/td/p[3]/text()
+    order_id: //table[4]/tr/td/table/tr[1]/td/p/a/span/text()
+    item_title: //table[5]/tr/td[1]/table/tr/td[2]/p/a/span/text()
+    item_price: //table[5]/tr/td[2]/table/tr/td[1]/p[2]/text()
+no-reply@flipkart.com:
+    order_id: //table[3]/tr[1]/td/p[3]/a/span/text()
+    address: //table[9]/tr/td/table/tr/td/p[3]/text()
+    item_title: //table[5]/tr/td[1]/table/tr/td[2]/p/a/span/text()
+    item_price: //table[5]/tr/td[2]/table/tr/td[1]/p[2]/text()
+cs@flipkart.com:
+    order_id: 
+        - //tr[1]/td/p[2]/a/span/span[@class='il']/text()
+        - //table[3]/tr/td/p[2]/a/span/text()
+    item_title: //table[5]/tr/td/table/tr/td[1]/p/a/span/text()
+
+
+    

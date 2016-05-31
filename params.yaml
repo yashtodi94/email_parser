@@ -1,0 +1,36 @@
+account_params:
+    id: 
+    email:
+    status:
+    status_ok: 0
+    limit:
+    offset:
+
+message_params:
+    subject: 
+    email: 
+    to: 
+    sender: 
+    cc: 
+    bcc: 
+    folder: 
+    file_name:
+    date_before: 
+    date_after: 
+    indexed_before: 
+    indexed_after: 
+    include_body: 1
+    include_headers: 
+    include_flags: 
+    body_type: 
+    sort_order: 
+    limit: 100
+    offset: 
+
+new_acc:
+    email: 
+    first_name: 
+    last_name: 
+
+conn_token:
+    callback_url:

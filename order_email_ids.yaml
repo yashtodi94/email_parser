@@ -1,0 +1,10 @@
+amazon:
+    confirmed: auto-confirm@amazon.in
+    shipped: ship-confirm@amazon.in
+    delivered: order-update@amazon.in
+paytm:
+    confirmed: no-reply@paytm.com
+    shipped: no-reply@paytm.com
+    delivered: no-reply@paytm.com
+flipkart:
+    confirmed: noreply@flipkart.com

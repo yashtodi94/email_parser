@@ -1,0 +1,39 @@
+
+
+
+Database query: 
+
+"""
+"CREATE DATABASE IF NOT EXISTS {} DEFAULT CHARACTER SET 'utf8' DEFAULT COLLATE 'utf8_general_ci'"
+"""
+
+
+"""
+"CREATE TABLE `messages` ("
+    "  `user_email` varchar(100) NOT NULL,"
+    "  `user_contextio_uuid` varchar(100) NOT NULL,"
+    "  `order_id` varchar(100),"
+    "  `msg_id` varchar(100) NOT NULL,"
+    "  `date_received` bigint NOT NULL,"
+    "  `subject` varchar(100) NOT NULL,"
+    "  `date_indexed` bigint NOT NULL,"
+    "  `from_email` varchar(100) NOT NULL,"
+    "  `email_processed` int DEFAULT 0,"
+    "  `store` varchar(100),"
+    "  PRIMARY KEY (`msg_id`))"
+
+"""
+
+"""
+"CREATE TABLE `items` ("
+    "  `user_email` varchar(100) NOT NULL,"
+    "  `user_contextio_uuid` varchar(100) NOT NULL,"
+    "  `order_id` varchar(100),"
+    "  `item_title` varchar(100),"
+    "  `item_price` int ,"
+    "  `delivery_address` text,"
+    "  `item_status` ENUM('confirmed', 'shipped', 'delivered', 'cancelled', 'returned'),"
+    "  `store` varchar(100),"
+    "  `img_url` varchar(2083),"
+    "  PRIMARY KEY (`item_title`, `order_id`))"
+"""
